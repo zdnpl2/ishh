@@ -14,17 +14,6 @@
     <!-- Header Button -->
     <a href="#habede"><button type="button" class="btn btn-primary" style="margin: 400px auto; display: block">Click me!</button></a>
 
-    <!-- Button2 -->
-    <a href="#habede2"><button type="button" class="btn btn-primary lanjootBtn" style="margin: 50px auto">Lanjoot!</button></a>
-    <style>
-      .lanjootBtn {
-        display: none;
-      }
-      .lanjutan {
-        display: none;
-      }
-    </style>
-
     <section class="lanjutan">
       <!-- Habede2 -->
       <div class="text-center" id="habede" style="margin-top: 5000px">
@@ -63,25 +52,6 @@
         <p class="text-white text-center" style="margin-top: -15px">seperti biasa, kalo web ginian kudu ada fotonya</p>
         <a href="img/nia.jpg"><button type="button" class="btn btn-light" style="margin: auto; display: block">👀</button></a>
         <p class="text-white mt-5 text-center">Credit? ada di URL, sekian terima kasih.</p>
-    <script>
-      const foto = document.querySelector(".lanjootBtn");
-      const lanjutan = document.querySelector(".lanjutan");
-      var asdaeffs = "niaa";
-      function selected() {
-        if (document.getElementById("dsdsjd").value != asdaeffs) {
-          swal({
-            title: "Kurang tepat :b",
-            icon: "warning",
-            dangerMode: true,
-          });
-          return false;
-        }
-        if (document.getElementById("dsdsjd").value == asdaeffs) {
-          foto.style.display = "block";
-          lanjutan.style.display = "block";
-        }
-      }
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
